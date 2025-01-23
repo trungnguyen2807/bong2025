@@ -8,7 +8,7 @@ window.onload = function() {
     setTimeout(function() {
       // Hiển thị thẻ div
       document.getElementById('myDiv').style.display = 'flex';
-    }, 15000); // 15000 milliseconds = 15 giây
+    }, 5000); // 15000 milliseconds = 15 giây
   };
 
     
