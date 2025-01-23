@@ -1,0 +1,10 @@
+# Bỏ qua tất cả các file .log
+*.log
+
+# Bỏ qua thư mục node_modules/
+node_modules/
+package-lock.json
+package.json
+
+# Bỏ qua các file .env
+.env
