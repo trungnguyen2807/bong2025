@@ -167,4 +167,21 @@ body {
 .menu.effect-09 a.show {
   display: flex;
 }
+.volume-control {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ee9ca7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
 
+.volume-control:hover {
+  background-color: #f38997;
+}
